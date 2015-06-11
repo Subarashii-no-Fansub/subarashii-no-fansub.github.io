@@ -89,3 +89,9 @@ body {
     border-bottom: 0;
   }
 }
+
+.centerImage
+{
+  text-align:center;
+  display:block;
+}
