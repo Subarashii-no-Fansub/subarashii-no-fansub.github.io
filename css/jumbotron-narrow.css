@@ -54,6 +54,10 @@ body {
   font-size: 1.2em;
 }
 
+.jumbotron h1 {
+  font-size: 3.5em;
+}
+
 .jumbotron .btn {
   padding: 14px 24px;
   font-size: 21px;
