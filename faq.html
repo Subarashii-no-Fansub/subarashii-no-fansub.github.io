@@ -41,7 +41,7 @@
 					<h3 class="panel-title">Qu'est-ce que la SnF ?</h3>
 				</div>
 				<div class="panel-body">
-					La SnF, pour Subarashii no Fansub, est une petite fansub, voire même des fois
+					La SnF, pour <i>Subarashii no Fansub</i>, est une petite fansub, voire même des fois
 					une petite équipe de traduction.
 				</div>
 			</div>
@@ -64,9 +64,50 @@
 				<div class="panel-body">
 					<ul> 
 						<li>Pour Windows : <a href="https://mpc-hc.org/">MPC-HC</a></li>
-						<li>Pour Mac OS & Linux : <a href="http://mpv.io/">MPV</a>/li>
+						<li>Pour Mac OS & Linux : <a href="http://mpv.io/">MPV</a></li>
 						<li>Pour les autres (Android, iOS, …) : MXPlayer, VLC ?, Infuse 3 ?</li>
 					</ul>
+				</div>
+			</div>
+
+			<div class="panel panel-info">
+				<div class="panel-heading">
+					<h3 class="panel-title">Les logiciels de torrent que nous conseillons :</h3>
+				</div>
+				<div class="panel-body">
+					<ul> 
+						<li><a href="http://www.qbittorrent.org/download.php">qBitorrent</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="panel panel-info">
+				<div class="panel-heading">
+					<h3 class="panel-title">À quoi sert le deuxième code entre crochets ?</h3>
+				</div>
+				<div class="panel-body">
+					Ce code est appelé contrôle de redondance cyclique (CRC32).
+					Elle permet de vérifier si le fichier est complet (et n'a pas été corrompu durant le téléchargement).
+					Le torrent permet automatiquement de vérifier cela, mais pas les autres types de téléchargement.
+				</div>
+			</div>
+
+			<div class="panel panel-info">
+				<div class="panel-heading">
+					<h3 class="panel-title">Comment patcher un épisode ?</h3>
+				</div>
+				<div class="panel-body">
+					Il arrive que des coquilles s’introduisent dans le script des sous-titres, qu’une faute traîne ou qu’un terme ne soit pas adéquat.
+					Il est alors d’usage de proposer une « v2 » de l’épisode ou un batch.
+
+					Dans certains cas, nous fournissons uniquement le sous-titre .ass, à vous de le muxer avec l'épisode.
+					Dans d'autres cas, nous fournissons un fichier .zip qui contient un .bat, .sh et .vcdiff :
+					<ul> 
+						<li>Pour Windows : dans le même dossier que l'épisode à patcher, double cliquez sur le fichier ".bat".</li>
+						<li>Pour Linux : installer `xdelta3`, et éxecutez le fichier .sh dans le même dossier que l'épisode à patcher</li>
+						<li>Pour Mac : installer `Homebrew` et écrivez `brew install xdelta` dans votre terminal pour installer xdelta ; écrivez ensuite dans le même dossier que l'épisode à patcher `xdelta3 -d -s ancien_mkv.mkv Patch.vcdiff nouveau_mkv.mkv`</li>
+					</ul>
+					Vous verrez apparaître un second fichier en V2. Il ne vous reste désormais plus qu'à supprimer tous les fichiers pour ne garder que l'épisode V2 (que vous pouvez renommer si vous le souhaitez) !
 				</div>
 			</div>
 
