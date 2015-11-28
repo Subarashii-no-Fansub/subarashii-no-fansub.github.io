@@ -161,3 +161,9 @@ body {
     width: 700px;
   }
 }
+
+/* Ajout au thème */
+
+.well {
+  background-color: rgba(0, 0, 0, 0.5);
+}
