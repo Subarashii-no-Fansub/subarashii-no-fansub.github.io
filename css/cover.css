@@ -127,6 +127,14 @@ body {
   color: rgba(255,255,255,.5);
 }
 
+@media (min-width: 768px) {
+  /* Handle the widths */
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+}
 
 @media (min-width: 992px) {
   .masthead,
