@@ -95,12 +95,14 @@ body {
   border-bottom-color: #fff;
 }
 
+@media (min-width: 768px) {
   .masthead-brand {
     float: left;
   }
   .masthead-nav {
     float: right;
   }
+}
 
 
 /*
@@ -130,6 +132,7 @@ body {
  * Affix and center
  */
 
+@media (min-width: 768px) {
   /* Pull out the header and footer */
   .masthead {
     position: fixed;
@@ -149,12 +152,15 @@ body {
   .cover-container {
     width: 100%; /* Must be percentage or pixels for horizontal alignment */
   }
+}
 
+@media (min-width: 992px) {
   .masthead,
   .mastfoot,
   .cover-container {
     width: 700px;
   }
+}
 
 /* Ajout au thème */
 
