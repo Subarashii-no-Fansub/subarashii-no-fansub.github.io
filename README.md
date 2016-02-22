@@ -20,5 +20,5 @@ Subarashii-no-Fansub Official Website
 
 ## Crypted paste
 
-* https://zerobin.dssr.ch/
+* https://snip.dssr.ch/
 * https://ncry.pt/
