@@ -1,5 +1,7 @@
 url: 
 
+Épisode répertorié :
+
 * Daitoshokan no Hitsujikai
   0/12 épisodes
 * Ping Pong The Animation
@@ -9,4 +11,4 @@ url:
 * Sakurako-san no Ashimoto ni wa Shitai ga Umatteiru
   0/12 épisodes
 * Shokugeki no Souma
-  0/12 épisodes
+  0/24 épisodes
