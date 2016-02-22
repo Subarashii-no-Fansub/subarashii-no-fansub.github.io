@@ -2,6 +2,7 @@
 Subarashii-no-Fansub Official Website
 
 ## Avancement
+
 ```
 <details>
 	<summary>Voir plus</summary>
@@ -16,3 +17,8 @@ Subarashii-no-Fansub Official Website
 	</div>
 </details>
 ```
+
+## Crypted paste
+
+* https://zerobin.dssr.ch/
+* https://ncry.pt/
