@@ -1,4 +1,5 @@
 # subarashii-no-fansub.github.io
+
 Subarashii-no-Fansub Official Website
 
 ## Avancement
@@ -20,5 +21,6 @@ Subarashii-no-Fansub Official Website
 
 ## Crypted paste
 
+* https://nsa.black/
 * https://snip.dssr.ch/
-* https://ncry.pt/
+* https://privatebin.net/
