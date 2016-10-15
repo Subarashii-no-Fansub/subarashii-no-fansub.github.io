@@ -22,5 +22,5 @@ Subarashii-no-Fansub Official Website
 ## Crypted paste
 
 * https://nsa.black/
-* https://snip.dssr.ch/
-* https://privatebin.net/
+* https://paste.unixcorn.org/
+* See more [here](https://github.com/PrivateBin/PrivateBin/wiki/PrivateBin-Directory)
