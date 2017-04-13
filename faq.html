@@ -3,13 +3,13 @@
 
 <head>
 	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
 	<meta name="description" content="Subarashii no Fansub">
 	<meta name="keywords" content="Subarashii no Fansub, Subarashii, Fansub, Vostfr, Anime">
 
 	<title>FAQ - Subarashii no Fansub</title>
-
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!-- Bootstrap core CSS -->
 	<link rel="stylesheet" href="external/bootstrap.min.css">
@@ -57,6 +57,9 @@
 					C'est du <b>.mkv</b>, souvent <b>720p</b> car c'est la définition qui,
 					selon moi, propose un bon ratio qualité/poids. Bien sûr, dans la mesure du possible,
 					ça sera du <b>10bits</b>. Ceci est valide pour les releases TV et BD.
+					<br>
+					Elles sont souvent encodées en <b>x264</b>, <b>AAC</b> bien que le X265 me fait de
+					l'œuil dernièrement.
 				</div>
 			</div>
 
@@ -66,9 +69,9 @@
 				</div>
 				<div class="panel-body">
 					<ul> 
-						<li>Pour Windows : <a href="https://mpc-hc.org/">MPC-HC</a></li>
-						<li>Pour Mac OS & Linux : <a href="http://mpv.io/">MPV</a></li>
-						<li>Pour les autres (Android, iOS, …) : Kodi, MXPlayer, VLC ?, Infuse 3 ?</li>
+						<li>Pour Windows : <a href="https://sourceforge.net/projects/mpcbe/files/latest/download">MPC-BE</a></li>
+						<li>Pour Mac OS & Linux : <a href="https://mpv.io/installation/">MPV</a></li>
+						<li>Pour les autres (Android, iOS, …) : Kodi, MXPlayer, VLC ?</li>
 					</ul>
 				</div>
 			</div>
@@ -80,6 +83,7 @@
 				<div class="panel-body">
 					<ul> 
 						<li><a href="http://www.qbittorrent.org/download.php">qBitorrent</a></li>
+						<li><a href="https://transmissionbt.com/download/">Transmssion-BT</a></li>
 					</ul>
 				</div>
 			</div>
@@ -91,14 +95,14 @@
 				<div class="panel-body">
 					Ce code est appelé contrôle de redondance cyclique (CRC32).
 					<br>
-					Elle permet de vérifier si le fichier est complet (et n'a pas été corrompu durant le téléchargement).
+					Il permet de vérifier si le fichier est complet (et n'a pas été corrompu durant le téléchargement).
 					<br>
 					Le torrent permet automatiquement de vérifier cela, mais pas les autres types de téléchargement.
 					<br>
 					Nous conseillons :
 					<ul> 
 						<li>Pour Windows : <a href="http://rapidcrc.sourceforge.net/">RapidCRC</a>, <a href="http://www.ov2.eu/programs/rapidcrc-unicode">RapidCRC-Unicode</a></li>
-						<li>Pour Mac : de base dans votre distribution, en ligne de commande, <code><crc32 <nom_du_fichier></code></li>
+						<li>Pour Mac : de base dans votre distribution, en ligne de commande, <code>crc32 <nom_du_fichier></code></li>
 						<li>Pour Linux : voir <a href="https://github.com/Subarashii-no-Fansub/Encodage/wiki#crc32-package">ce wiki</a></li>
 					</ul>
 				</div>
@@ -128,7 +132,8 @@
 					<h3 class="panel-title">Avez-vous un tutoriel qui explique le fansub ?</h3>
 				</div>
 				<div class="panel-body">
-					Oui, tu peux voir certains points expliqués sur <a href="https://subarashii-no-fansub.github.io/Subbing-Tutorial/">ce « blog »</a>.
+					Pas vraiment, mais nous écrivons certains points qui nous intéressent plus que d'autres sur
+					<a href="https://subarashii-no-fansub.github.io/Subbing-Tutorial/">ce « blog »</a>.
 					<br>
 					Les explications sont en anglais, mais elles sont simples à comprendre.
 				</div>
