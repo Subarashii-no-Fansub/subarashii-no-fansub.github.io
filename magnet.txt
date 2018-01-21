@@ -1,8 +1,7 @@
  -------------------------------------------------------------------------------------------------------
-|    MAGNET :   https://privatebin.net/?fecf66a85c66a48e#tQxJQTyeEwuluw83agHz/mHxrNS1ai/qtyfgQrC8rx0=   |
+|    MAGNET :   https://privatebin.net/?b8f29bf782fa7bae#aaPlBujtEgZaTUehiUBKA5wM8leBR7YO9PON0VMh9pA=   |
  -------------------------------------------------------------------------------------------------------
-|   Tokyo Toshokan   |   https://www.tokyotosho.info/search.php?username=Subarashii+no+Fansub    |  UP  |
-| (miror of Nyaa.si) |                https://nyaa.si/user/Subarashii-no-Fansub                  |  UP  |
+|  Nyaa.si  |                     https://nyaa.si/user/Subarashii-no-Fansub                      |  UP  |
  -------------------------------------------------------------------------------------------------------
 
 (copiez-collez les liens dans la barre d'adresse de votre navigateur)
@@ -21,8 +20,14 @@ Listing des sorties :
 * Kanojo to Kanojo no Neko BD
   1 OAV + 04/04 épisodes
 
+* Koi wa Ameagari no You ni
+  01/12 épisodes
+
 * Ojisan to Marshmallow
   12/12 épisodes
+
+* Ping Pong The Animation BD
+  11/11 épisodes
 
 * Prison School BD
   01/12 épisodes (ABANDONNÉ)
@@ -36,4 +41,4 @@ Listing des sorties :
 * Shokugeki no Souma
   24/24 épisodes
 
-*** Mis à jour le : 30/09/2017 ***
+*** Mis à jour le : 22/01/2018 ***
