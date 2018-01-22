@@ -21,44 +21,149 @@
 		<![endif]-->
 
 	<!-- Custom styles for this template -->
-	<link href="css/cover.css" rel="stylesheet">
+	<link href="css/jumbotron-narrow.css" rel="stylesheet">
 	<link href="css/main-page.css" rel="stylesheet">
 
 </head>
 
 <body>
-	<div class="site-wrapper">
-		<div class="site-wrapper-inner">
-			<div class="cover-container">
-				<div class="masthead clearfix">
-					<div class="inner">
-						<h3 class="masthead-brand">Subarashii no Fansub</h3>
-						<nav>
-							<ul class="nav masthead-nav">
-								<li class="active"><a href="#">Accueil</a></li>
-								<li><a href="avancement.html">Avancement</a></li>
-								<li><a href="magnet.txt">Torrents</a></li>
-								<li><a href="faq.html">FAQ</a></li>
-							</ul>
-						</nav>
+	<div class="container">
+		<div class="header clearfix">
+			<h3 class="text-muted">Subarashii no Fansub</h3>
+			<nav>
+				<ul class="nav nav-pills pull-right">
+					<li role="presentation" class="active"><a href="#">Accueil</a></li>
+					<li role="presentation"><a href="avancement.html">Avancement</a></li>
+					<li role="presentation"><a href="magnet.txt">Torrents</a></li>
+					<li role="presentation"><a href="faq.html">FAQ</a></li>
+				</ul>
+			</nav>
+		</div>
+
+		<div class="jumbotron">
+			<h1>Bienvenue sur notre page.</h1>
+			<p class="lead">Et bonne visite :)</p>
+			<p>
+				<a href="projets.html" class="btn btn-lg btn-default" role="button">
+					Voir nos projets
+				</a>
+			</p>
+		</div>
+
+		<div class="row marketing">
+			<div class="col-lg-6">
+
+				<div class="panel panel-info">
+					<div class="panel-heading">
+						<h3 class="panel-title">Qu'est-ce que la SnF ?</h3>
+					</div>
+					<div class="panel-body">
+						La SnF, pour <i>Subarashii no Fansub</i>, est une petite fansub, une petite équipe de traduction 
+						ou encore une équipe de <i>release</i>.
+					</div>
+				</div>
+				
+				<div class="panel panel-info">
+					<div class="panel-heading">
+						<h3 class="panel-title">Quel est le format de vos vidéos ?</h3>
+					</div>
+					<div class="panel-body">
+						C'est du <b>.mkv</b>, souvent <b>720p</b> car c'est la définition qui,
+						selon moi, propose un bon ratio qualité/poids, et qui en plus est la définition
+						la plus proche de celle de production des animes.
+						Bien sûr, dans la mesure du possible,
+						ça sera du <b>10bits</b>. Ceci est valide pour les releases TV et BD.
+						<br>
+						Elles sont souvent encodées en <b>x264</b>, <b>AAC</b> bien que le X265 me fait de
+						l'œil dernièrement.
 					</div>
 				</div>
 
-				<div class="inner cover">
-					<h1 class="cover-heading">Bienvenue sur notre page.</h1>
-					<p class="lead">Et bonne visite :)</p>
-					<p class="lead">
-						<a href="projets.html" class="btn btn-lg btn-default">Voir nos projets</a>
-					</p>
-				</div>
-
-				<div class="mastfoot">
-					<div class="inner">
-						<p>Fais ce que tu veux ici, site de la <a href="/">Subarashii no Fansub</a>.</p>
+				<div class="panel panel-info">
+					<div class="panel-heading">
+						<h3 class="panel-title">Les logiciels que nous conseillons :</h3>
+					</div>
+					<div class="panel-body">
+						Pour la lecture vidéo :
+						<ul> 
+							<li>Pour Windows : <a href="https://sourceforge.net/projects/mpcbe/files/latest/download">MPC-BE</a> ou <a href="https://mpv.io/installation/">MPV</a></li>
+							<li>Pour Mac OS & Linux : <a href="https://mpv.io/installation/">MPV</a></li>
+							<li>Pour les autres (Android, iOS, …) : Kodi, MXPlayer, VLC ?</li>
+						</ul>
+						
+						Pour récuperer les torrents :
+						<ul> 
+							<li><a href="http://www.qbittorrent.org/download.php">qBitorrent</a></li>
+							<li><a href="https://transmissionbt.com/download/">Transmssion-BT</a></li>
+						</ul>
 					</div>
 				</div>
+
+			</div>
+
+			<div class="col-lg-6">
+
+				<div class="panel panel-info">
+					<div class="panel-heading">
+						<h3 class="panel-title">À quoi sert le deuxième code entre crochets ?</h3>
+					</div>
+					<div class="panel-body">
+						Ce code est appelé contrôle de redondance cyclique (CRC32).
+						<br>
+						Il permet de vérifier si le fichier est complet (et n'a pas été corrompu durant le téléchargement).
+						<br>
+						Le torrent permet automatiquement de vérifier cela, mais pas les autres types de téléchargement.
+						<br>
+						Nous conseillons :
+						<ul> 
+							<li>Pour Windows : <a href="http://rapidcrc.sourceforge.net/">RapidCRC</a>, <a href="http://www.ov2.eu/programs/rapidcrc-unicode">RapidCRC-Unicode</a></li>
+							<li>Pour Mac : de base dans votre distribution, en ligne de commande, <code>crc32 <nom_du_fichier></code></li>
+							<li>Pour Linux : voir <a href="https://github.com/Subarashii-no-Fansub/Encodage/wiki#crc32-package">ce wiki</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="panel panel-info">
+					<div class="panel-heading">
+						<h3 class="panel-title">Comment patcher un épisode ?</h3>
+					</div>
+					<div class="panel-body">
+						Il arrive que des coquilles s’introduisent dans le script des sous-titres, qu’une faute traîne ou qu’un terme ne soit pas adéquat.
+						Il est alors d’usage de proposer une « v2 » de l’épisode ou un batch.
+						<br>
+						Dans certains cas, nous fournissons uniquement le sous-titre .ass, à vous de le muxer avec l'épisode.
+						Dans d'autres cas, nous fournissons un fichier .zip qui contient un .bat, .sh et .vcdiff :
+						<ul> 
+							<li>Pour Windows : dans le même dossier que l'épisode à patcher, double cliquez sur le fichier ".bat".</li>
+							<li>Pour Linux : installer xdelta3, et éxecutez le fichier .sh dans le même dossier que l'épisode à patcher</li>
+							<li>Pour Mac : installer Homebrew et écrivez <code>brew install xdelta</code> dans votre terminal pour installer xdelta ; écrivez ensuite dans le même dossier que l'épisode à patcher <code>xdelta3 -d -s ancien_mkv.mkv Patch.vcdiff nouveau_mkv.mkv</code></li>
+						</ul>
+						Vous verrez apparaître un second fichier en V2. Il ne vous reste désormais plus qu'à supprimer tous les fichiers pour ne garder que l'épisode V2 (que vous pouvez renommer si vous le souhaitez) !
+					</div>
+				</div>
+
+				<div class="panel panel-info">
+					<div class="panel-heading">
+						<h3 class="panel-title">J'ai trouvé une faute/je veux donner mon avis/autre :</h3>
+					</div>
+					<div class="panel-body">
+						Pour l'erreur, nous la signaler en commentaire sur le torrent associé serait apprécié, et ceci afin qu'on puisse la corriger pour, par exemple, les blu-ray.
+						Merci d'avance :)
+						<br>
+						Pour l'avis, pareil, le mettre en commentaire, nous essayons de tous les lire et d'y répondre.
+						<br>
+						Nous essayons de maintenir certains points qui nous intéressent sur <a href="https://subarashii-no-fansub.github.io/Subbing-Tutorial/">ce « blog »</a>.
+						Les explications sont en anglais, mais elles sont simples à comprendre.
+					</div>
+				</div>
+
 			</div>
 		</div>
+
+		<footer class="footer">
+			<p>Fais ce que tu veux ici, site de la <a href="/">Subarashii no Fansub</a>.</p>
+		</footer>
+
 	</div>
 
 	<!-- Bootstrap core JavaScript -->
