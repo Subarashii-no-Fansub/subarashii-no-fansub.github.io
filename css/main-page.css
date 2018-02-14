@@ -3,6 +3,7 @@
  */
 summary:hover {
   cursor: pointer;
+  text-decoration: underline;
 }
 
 @media (min-width: 768px) {
