@@ -1,6 +1,6 @@
-# subarashii-no-fansub.github.io
+# Subarashii no Fansub Website
 
-Subarashii-no-Fansub Official Website
+https://subarashii-no-fansub.github.io
 
 ## Avancement
 
